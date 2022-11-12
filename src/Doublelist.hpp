@@ -1,3 +1,6 @@
+#ifndef DOUBLELIST_H
+#define DOUBLELIST_H
+
 #include <memory>
 #include <iterator>
 
@@ -314,3 +317,5 @@ public:
 private:
     Node* _ptr;
 };
+
+#endif
